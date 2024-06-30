@@ -25,7 +25,7 @@ const Portfolio = () => {
     return (
         <section id="projects" className="py-20 bg-white">
           <div className="container mx-auto px-4">
-            <h2 className="text-4xl font-bold mb-4">Projects I've worked on</h2>
+            <h2 className="text-4xl font-bold mb-4">Projects</h2>
             {projects.map((project, index) => (
               <Project
                 key={index}
